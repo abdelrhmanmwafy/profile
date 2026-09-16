@@ -1,0 +1,33 @@
+
+
+#ifndef STEPPER_CONFIG_H_
+#define STEPPER_CONFIG_H_
+
+/*Options :-
+ * PORTA
+ * PORTB
+ * PORTC
+ * PORTD
+ * */
+#define STEPPER_PORT DIO_PORTC
+
+#define STEPPER_BLUE_PIN   DIO_PIN6
+#define STEPPER_PINK_PIN   DIO_PIN5
+#define STEPPER_ORANGE_PIN DIO_PIN4
+#define STEPPER_YELLOW_PIN DIO_PIN3
+
+/* OPTIONS :-
+ 	 1- PIN0
+ 	 2- PIN1
+ 	 3- PIN2
+ 	 4- PIN3
+ 	 5- PIN4
+ 	 6- PIN5
+ 	 7- PIN6
+ 	 8- PIN7
+
+
+
+ */
+
+#endif /* STEPPER_CONFIG_H_ */
